@@ -50,6 +50,7 @@ function validateInput() {
         const context = controls[0];
 
         context.classList.remove('error');
+        context.style.color = '#222'
         errorFlag.style.opacity = 0;
     }
     return;
